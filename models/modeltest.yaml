@@ -2,8 +2,29 @@ title: modeltest
 x-stoplight:
   id: k77gtk5qpyu7h
 type: object
+description: modelTest
+examples:
+  - id: string
+x-extension-1: null
 properties:
   id:
     type: string
     x-stoplight:
       id: gpy6ki7mpbreb
+  address:
+    type: boolean
+    x-stoplight:
+      id: a83hmsuv37p9g
+  time:
+    x-stoplight:
+      id: rnppmp9t5nzk0
+    enum: []
+  lane:
+    type: object
+    x-stoplight:
+      id: lj5w43kallcl5
+    additionalProperties: {}
+  travel:
+    type: string
+    x-stoplight:
+      id: cedg7o7kpfupk
