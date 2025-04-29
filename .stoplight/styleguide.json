@@ -1,0 +1,26 @@
+{
+  "name": "Test1234567890",
+  "description": "",
+  "spectralExtends": [],
+  "extends": [],
+  "formats": [
+    "oas2",
+    "oas3",
+    "oas3.0",
+    "oas3.1"
+  ],
+  "aliases": {},
+  "rules": {
+    "newRule": {
+      "id": "BVRtDFkaY6Fv9fjo07BP5",
+      "given": [],
+      "severity": "error",
+      "then": {
+        "function": ""
+      },
+      "name": "newRule",
+      "message": "msg"
+    }
+  },
+  "extendedDefault": false
+}
